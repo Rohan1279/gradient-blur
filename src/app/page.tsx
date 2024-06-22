@@ -27,10 +27,9 @@ export default function Home() {
       {/* <ListGradient /> */}
 
       <div
-        className="w-96 h-[484px] rounded-2xl shadow-xl relative flex justify-center subpixel-antialiased z-20"
+        className="w-96 h-[484px] rounded-2xl shadow-xl relative flex justify-center subpixel-antialiased z-50 hover:scale-150 transition-all"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1683573254548-ebb7b94d7def?q=80&w=5106&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)')",
+          backgroundImage: "url('https://picsum.photos/800/800')",
           backgroundSize: "cover", // Cover the entire page
           backgroundPosition: "center", // Center the background image
           // zIndex: -1, // Behind the content
@@ -39,10 +38,9 @@ export default function Home() {
         <h1 className="absolute -bottom-12 font-semibold text-[26px] tracking-[-1px text-balance"></h1>
       </div>
       <div
-        className="w-96 h-[484px] rounded-2xl shadow-xl  relative flex justify-center subpixel-antialiased z-20"
+        className="w-96 h-[484px] rounded-2xl shadow-xl  relative flex justify-center subpixel-antialiased z-20 hover:scale-150 transition-all"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1683573254548-ebb7b94d7def?q=80&w=5106&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)')",
+          backgroundImage: "url('https://picsum.photos/800/800')",
           backgroundSize: "cover", // Cover the entire page
           backgroundPosition: "center", // Center the background image
         }}
