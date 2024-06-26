@@ -46,7 +46,7 @@ export default function Home() {
         <h1 className="absolute -bottom-10 z-20 font-semibold text-[26px] tracking-[-1px text-balance text-white">
           Normal blur
         </h1>
-        <div className="w-full h-full backdrop-blur-[32px] rounded-2xl"></div>
+        <div className="w-full h-full backdrop-blur-[32px] rounded-2xl "></div>
       </div>
 
       <CardGradient />

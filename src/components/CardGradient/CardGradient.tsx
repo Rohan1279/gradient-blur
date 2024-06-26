@@ -6,7 +6,7 @@ const CardGradient = () => {
   const [blurheight, setBlurheight] = useState("100%");
   return (
     <div
-      className="w-96 h-[484px]  rounded-2xl flex justify-center items-end shadow-xl  relative z-20 "
+      className="w-96 h-[484px]  rounded-2xl flex justify-center items-end shadow-xl  relative z-20 hover:scale-125 transition-all  duration-500"
       style={{
         backgroundImage: "url('https://picsum.photos/800/800')",
         backgroundSize: "cover", // Cover the entire page
