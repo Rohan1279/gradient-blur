@@ -1,5 +1,7 @@
 # Gradient Blur Project
 
+![Project Image](/public/image.png "Image for Gradient Blur Project")
+
 This project is built using [Next.js](https://nextjs.org/), a React framework that enables functionality such as server-side rendering and generating static websites for React-based web applications.
 
 ## Features
